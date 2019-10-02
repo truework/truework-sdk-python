@@ -1,0 +1,70 @@
+{
+  "created":  "2008-09-15T15:53:00Z",
+  "current_as_of": "2008-09-15T15:53:00Z",
+  "verification_request": {
+    "id": "report_1",
+    "type": "employment-income",
+    "created": "2008-09-14T9:00:00Z"
+  },
+  "employer": {
+    "name": "Truework Inc",
+    "address": {
+      "line_one": "15 Lucerne Street",
+      "line_two": "Apt 2",
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "US",
+      "postal_code": "94115"
+    }
+  },
+  "employee": {
+    "first_name": "First",
+    "last_name": "Last",
+    "status": "inactive",
+    "hired_date": "2017-08-08",
+    "end_of_employment": "2019-08-08",
+    "social_security_number": "***-**-9999",
+    "earnings": [
+      {
+        "year": 2019,
+        "base": "35000.00",
+        "overtime": "200.00",
+        "commission": "100.25",
+        "bonus": "500.00",
+        "total": "35800.25"
+      },
+      {
+        "year": 2018,
+        "base": "30000.00",
+        "overtime": "200.00",
+        "commission": "100.25",
+        "bonus": "500.00",
+        "total": "30800.25"
+      },
+      {
+        "year": 2017,
+        "base": "30000.00",
+        "overtime": "200.00",
+        "commission": "100.25",
+        "bonus": "500.00",
+        "total": "30800.25"
+      }
+    ],
+    "positions": [
+      {
+        "title": "current title",
+        "start_date": "2018-08-08"
+      },
+      {
+        "title": "past title",
+        "start_date": "2017-08-08",
+        "end_date": "2019-08-08"
+      }
+    ],
+    "salary": {
+      "gross_pay": "30000.00",
+      "pay_frequency": "annually",
+      "hours_per_week": "40"
+    }
+  }
+}

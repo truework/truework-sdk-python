@@ -1,0 +1,16 @@
+{
+    "count": 5,
+    "next": "https://api.truework.com/companies/?limit=2&offset=4&q=International",
+    "previous": "https://api.truework.com/companies/?limit=2&offset=0&q=International",
+    "results": [
+        {
+            "id": "18729",
+            "name": "International Association of Bomb Technicians & Investigators",
+            "domain": "iabti.org"
+        },
+        {
+            "id": "12241",
+            "name": "International Brotherhood of Boilermakers"
+        }
+    ]
+}

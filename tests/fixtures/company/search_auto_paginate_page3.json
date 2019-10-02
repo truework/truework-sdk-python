@@ -1,0 +1,10 @@
+{
+    "count": 5,
+    "previous": "https://api.truework.com/companies/?limit=2offset=2&q=International",
+    "results": [
+        {
+            "id": "8267",
+            "name": "International Coach Federation"
+        }
+    ]
+}

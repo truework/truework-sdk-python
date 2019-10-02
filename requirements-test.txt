@@ -1,0 +1,4 @@
+attrs==19.3.0
+cattrs==1.0.0
+requests-mock==1.6.0
+tox==3.14.3

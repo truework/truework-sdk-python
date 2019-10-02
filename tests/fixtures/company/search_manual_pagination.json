@@ -1,0 +1,20 @@
+{
+    "count": 3,
+    "results": [
+        {
+            "id": "745",
+            "name": "International Academy of Design and Technology",
+            "domain": "iadt.edu"
+        },
+        {
+            "id": "17756",
+            "name": "International Arbitration",
+            "domain": "arbitration.org"
+        },
+        {
+            "id": "18729",
+            "name": "International Association of Bomb Technicians & Investigators",
+            "domain": "iabti.org"
+        }
+    ]
+}

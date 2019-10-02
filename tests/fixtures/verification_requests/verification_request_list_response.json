@@ -1,0 +1,136 @@
+{
+  "results": [
+    {
+      "id": "AAAAAAAAQnIAAYd5YHFVOm8PNX2ecFbEjqV__upOKUE8YE_IK2GwSQTP1",
+      "state": "pending-approval",
+      "created": "2008-09-15T15:53:00Z",
+      "type": "employment-income",
+      "price": {
+        "amount": "39.95",
+        "currency": "USD"
+      },
+      "turnaround_time": {},
+      "permissible_purpose": "credit-application",
+      "target": {
+        "first_name": "John",
+        "last_name": "Doe",
+        "contact_email": "johndoe@truework.com",
+        "social_security_number": "***-**-0001",
+        "company": {
+          "name": "Admazely"
+        }
+      },
+      "documents": [
+        {
+          "filename": "employee_authorization.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AAAAAAAAQnIAAYd5YHFVOm8PNX2ecFbEjqV__upOKUE8YE_IK2GwSQTP2",
+      "state": "pending-approval",
+      "created": "2008-09-15T15:53:00Z",
+      "type": "employment-income",
+      "price": {
+        "amount": "39.95",
+        "currency": "USD"
+      },
+      "turnaround_time": {},
+      "permissible_purpose": "employment",
+      "target": {
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "contact_email": "janedoe@truework.com",
+        "social_security_number": "***-**-0002",
+        "company": {
+          "name": "Optier"
+        }
+      },
+      "documents": [
+        {
+          "filename": "employee_authorization.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AAAAAAAAQnIAAYd5YHFVOm8PNX2ecFbEjqV__upOKUE8YE_IK2GwSQTP3",
+      "state": "pending-approval",
+      "created": "2008-09-15T15:53:00Z",
+      "type": "employment-income",
+      "price": {
+        "amount": "39.95",
+        "currency": "USD"
+      },
+      "turnaround_time": {},
+      "permissible_purpose": "employment",
+      "target": {
+        "first_name": "Richard",
+        "last_name": "Roe",
+        "contact_email": "richardroe@truework.com",
+        "social_security_number": "***-**-0003",
+        "company": {
+          "name": "99Dresses"
+        }
+      },
+      "documents": [
+        {
+          "filename": "employee_authorization.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AAAAAAAAQnIAAYd5YHFVOm8PNX2ecFbEjqV__upOKUE8YE_IK2GwSQTP4",
+      "state": "pending-approval",
+      "created": "2008-09-15T15:53:00Z",
+      "type": "employment-income",
+      "price": {
+        "amount": "39.95",
+        "currency": "USD"
+      },
+      "turnaround_time": {},
+      "permissible_purpose": "child-support",
+      "target": {
+        "first_name": "Jane",
+        "last_name": "Roe",
+        "contact_email": "janeroe@truework.com",
+        "social_security_number": "***-**-0004",
+        "company": {
+          "name": "Selltag"
+        }
+      },
+      "documents": [
+        {
+          "filename": "employee_authorization.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AAAAAAAAQnIAAYd5YHFVOm8PNX2ecFbEjqV__upOKUE8YE_IK2GwSQTP5",
+      "state": "pending-approval",
+      "created": "2008-09-15T15:53:00Z",
+      "type": "employment-income",
+      "price": {
+        "amount": "39.95",
+        "currency": "USD"
+      },
+      "turnaround_time": {},
+      "permissible_purpose": "employment",
+      "target": {
+        "first_name": "John",
+        "last_name": "Public",
+        "contact_email": "johnpublic@truework.com",
+        "social_security_number": "***-**-0005",
+        "company": {
+          "name": "Raptr"
+        }
+      },
+      "documents": [
+        {
+          "filename": "employee_authorization.pdf"
+        }
+      ]
+    }
+  ],
+  "next": "https://api.truework.com/verification-requests/?offset=5",
+  "count": 25
+}

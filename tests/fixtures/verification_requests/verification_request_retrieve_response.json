@@ -1,0 +1,26 @@
+{
+  "id": "AAAAAAAAQnIAAYd5YHFVOm8PNX2ecFbEjqV__upOKUE8YE_IK2GwSQTP",
+  "state": "completed",
+  "created": "2008-09-15T15:53:00Z",
+  "type": "employment-income",
+  "price": {
+    "amount": "39.95",
+    "currency": "USD"
+  },
+  "turnaround_time": {},
+  "permissible_purpose": "credit-application",
+  "target": {
+    "first_name": "Joe",
+    "last_name": "Smith",
+    "contact_email": "joesmith@example.org",
+    "company": {
+      "name": "Future Widget LLC"
+    },
+    "social_security_number": "***-**-0001"
+  },
+  "documents": [
+    {
+      "filename": "employee_authorization.pdf"
+    }
+  ]
+}

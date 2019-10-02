@@ -1,0 +1,10 @@
+language: python
+python:
+  - "3.6"
+install:
+  - pip3 install -r requirements-test.txt -r requirements-dev.txt
+before_script:
+  - black --check $(git diff --diff-filter=d --name-only origin/master | grep ".*\.py$")
+script:
+  - tox
+dist: xenial
