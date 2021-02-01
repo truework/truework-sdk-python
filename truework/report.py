@@ -4,6 +4,7 @@ from truework import VerificationRequest
 from truework.base import RetrievableAPIResource, APIClient
 from truework.employee import Employee
 from truework.employer import Employer
+from truework.respondent import Respondent
 
 
 @attrs(frozen=True)
@@ -22,3 +23,5 @@ class Report(RetrievableAPIResource):
     verification_request = attrib(type=VerificationRequest)
     employer = attrib(type=Employer)
     employee = attrib(type=Employee)
+    additional_notes = attrib(default=None)
+    respondent = attrib(type=Respondent, default=None)

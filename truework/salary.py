@@ -6,3 +6,4 @@ class Salary(object):
     gross_pay = attrib()
     pay_frequency = attrib()
     hours_per_week = attrib()
+    reduced_covid = attrib(default=None)

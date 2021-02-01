@@ -12,7 +12,7 @@ class Employee(object):
     last_name = attrib()
     status = attrib()
     hired_date = attrib()
-    end_of_employment = attrib()
     earnings = attrib(type=List[Earnings])
     positions = attrib(type=List[Position])
     salary = attrib(type=Salary)
+    termination_date = attrib(default=None)
